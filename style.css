@@ -1,7 +1,35 @@
 body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-rows: 70px 1fr 140px;
+  width: 100vw;
 
 }
 
 * {
   box-sizing: border-box;
 }
+
+#company-name {
+  color: red;
+}
+
+header {
+  display:grid;
+  grid-template-columns: 33% 33% 1fr;
+}
+
+main {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  color: white;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
